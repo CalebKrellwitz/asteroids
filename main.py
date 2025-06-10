@@ -48,7 +48,7 @@ def main():
             for s in shots:
                 if s.check_if_collision(a):
                     s.kill()
-                    a.kill()
+                    a.split()
 
         dt = clock.tick(60) / 1000
 
